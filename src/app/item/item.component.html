@@ -1,1 +1,9 @@
-<li class="item">Pee in a cup</li>
+<section class="main">
+  <ul class="todo-list">
+    <li *ngFor="#item of items">
+      <div class="view">
+        <label>{{item.text}}</label>
+      </div>
+    </li>
+  </ul>
+</section>
