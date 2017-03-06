@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+li.item {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  border-bottom: 1px dashed #AFADA6;
+}
+
+li.item-complete {
+  text-decoration: line-through;
+  font-weight: 400;
+  border-bottom: 1px dashed #AFADA6;
+}
