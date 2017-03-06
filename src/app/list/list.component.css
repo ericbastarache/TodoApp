@@ -1,0 +1,11 @@
+ul.item-holder {
+  list-style: none;
+  box-shadow: 1px 1px 1px #DFDBCD;
+  border: 1px solid #EFEBDA;
+  background-color: #FFFAE7;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  color: #9F9E99;
+  padding: 15px;
+}
