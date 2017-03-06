@@ -17,10 +17,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'todo works!'`, async(() => {
+  it(`should have as title 'Todo List'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('todo works!');
+    expect(app.title).toEqual('Todo List');
   }));
 
   it('should render title in a h1 tag', async(() => {
