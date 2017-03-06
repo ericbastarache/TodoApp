@@ -1,3 +1,7 @@
-<ul class="item-holder">
-  <todo-item></todo-item>
-</ul>
+<section class="todoapp">
+  <header class="header">
+    <h1 class="text-center">Todo List</h1>
+    <input class="new-todo" [(ngModel)]="newItem" (keyup.enter)="addItem()" placeholder="What do you need to do?" autofocus>
+    <button class="add-todo" (click)="addItem()">Add</button>
+  </header>
+</section>
